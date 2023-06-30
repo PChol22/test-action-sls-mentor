@@ -11,3 +11,4 @@ runs:
         role-to-assume: arn:aws:iam::463151931555:role/github-action
     - name: 'sls-mentor'
       run: 'npx sls-mentor -r eu-west-1'
+      shell: 'bash'
